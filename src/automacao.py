@@ -5,8 +5,8 @@ import os
 import yagmail
 
 # Caminhos
-CAMINHO_EXCEL = "C:/Users/keila/OneDrive/Documentos/resumo_vendas_automacao/resumo_vendas_automacao/dados/vendas.xlsx"
-CAMINHO_RELATORIO = "C:/Users/keila/OneDrive/Documentos/resumo_vendas_automacao/resumo_vendas_automacao/relatorios/resumo_email.html"
+CAMINHO_EXCEL = "C:/Users/resumo_vendas_automacao/resumo_vendas_automacao/dados/vendas.xlsx"
+CAMINHO_RELATORIO = "C:/Users/resumo_vendas_automacao/resumo_vendas_automacao/relatorios/resumo_email.html"
 
 # Leitura do Excel
 df = pd.read_excel(CAMINHO_EXCEL)
