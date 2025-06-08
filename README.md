@@ -43,6 +43,8 @@ bash
 Copiar
 Editar
 python src/automacao.py
+
+
 📧 Sobre o Envio de E-mail
 Este projeto utiliza o Yagmail para envio automático. Para usar, ative a autenticação de dois fatores na sua conta do Gmail e gere uma senha de app.
 
