@@ -36,8 +36,8 @@ print("Relatório gerado com sucesso!")
 
 # Envio de e-mail
 EMAIL = "seuemail@gmail.com"
-SENHA = "suasenha"
-DESTINATARIO = "destinatario@gmail.com"
+SENHA = "sua_senha_de_app"
+DESTINATARIO = "destinatario@exemplo.com"
 
 yag = yagmail.SMTP(EMAIL, SENHA)
 yag.send(
