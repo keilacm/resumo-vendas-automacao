@@ -5,8 +5,8 @@ import os
 import yagmail
 
 # Caminhos
-CAMINHO_EXCEL = "C:/Users/keila/OneDrive/Documentos/resumo_vendas_automacao/dados/Vendas.xlsx"
-CAMINHO_RELATORIO = "C:/Users/keila/OneDrive/Documentos/resumo_vendas_automacao/relatorios/resumo_email.html"
+CAMINHO_EXCEL = "C:/Users/resumo_vendas_automacao/dados/Vendas.xlsx"
+CAMINHO_RELATORIO = "C:/Users/resumo_vendas_automacao/relatorios/resumo_email.html"
 
 # Leitura do Excel
 df = pd.read_excel(CAMINHO_EXCEL)
@@ -35,9 +35,9 @@ with open(CAMINHO_RELATORIO, "w", encoding="utf-8") as f:
 print("Relatório gerado com sucesso!")
 
 # Envio de e-mail
-EMAIL = "feiacoisa091@gmail.com"
-SENHA = "xglibufjzsfxjhay"
-DESTINATARIO = "keila.cmarinho00@gmail.com"
+EMAIL = "seuemail@gmail.com"
+SENHA = "suasenha"
+DESTINATARIO = "destinatario@gmail.com"
 
 yag = yagmail.SMTP(EMAIL, SENHA)
 yag.send(
