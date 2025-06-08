@@ -32,6 +32,7 @@ Este projeto automatiza o processo de geração de relatórios de vendas a parti
 Instale as dependências:
 
 bash
+
 Copiar
 Editar
 pip install -r requirements.txt
@@ -40,6 +41,7 @@ Configure seu e-mail (ver instruções no automacao.py)
 Execute o script:
 
 bash
+
 Copiar
 Editar
 python src/automacao.py
