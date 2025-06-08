@@ -49,7 +49,8 @@ python src/automacao.py
 Este projeto utiliza o Yagmail para envio automático. Para usar, ative a autenticação de dois fatores na sua conta do Gmail e gere uma senha de app.
 
 👩‍💻 Desenvolvido por
-Keila Marques
+Keila Marinho
+
 GitHub
 
 📌 Observação
