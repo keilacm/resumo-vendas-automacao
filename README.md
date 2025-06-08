@@ -43,9 +43,19 @@ pip install -r requirements.txt
 
 ```bash
 cd src
-python automacao.py
-```
 
 ## ✅ Status do Projeto
 
 ✅ Concluído – pronto para uso e personalização.
+
+📧 Sobre o Envio de E-mail
+Este projeto utiliza o Yagmail para envio automático. Para usar, ative a autenticação de dois fatores na sua conta do Gmail e gere uma senha de app.
+
+👩‍💻 Desenvolvido por
+Keila Marinho
+GitHub
+
+📌 Observação
+Este projeto é parte do meu portfólio como desenvolvedora. Fique à vontade para entrar em contato, sugerir melhorias ou contribuir!
+python automacao.py
+```
